@@ -35,9 +35,9 @@ h2 {
     font-size:50px;
     margin:40px;
 }
-main {
+.amaz{
     position: absolute;
-    top: 10%;
+    top: 30%;
 }
 .top {
     position: absolute;
@@ -50,8 +50,129 @@ main {
     opacity: 1;
 }
 img {
-    margin-top: 50%;
     width: 60%;
     margin-left: -4px;
     transition-duration: 1.2s;
+}
+.glov{
+    position: absolute;
+    top: 95%;
+    margin-right: 60%;
+}
+.top2 {
+    position: absolute;
+    left: 0;
+}
+.top2 img {
+    opacity: 0;
+}
+.top2 img:hover {
+    opacity: 1;
+}
+img {
+    width: 60%;
+    margin-left: -4px;
+    transition-duration: 1.2s;
+}
+.burg{
+    position: absolute;
+    top: 160%;
+    margin-right: 60%;
+}
+.top3 {
+    position: absolute;
+    left: 0;
+}
+.top3 img {
+    opacity: 0;
+}
+.top3 img:hover {
+    opacity: 1;
+}
+img {
+    width: 60%;
+    margin-left: -4px;
+    transition-duration: 1.2s;
+}
+.amazon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.glovo{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.bk{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.mockupam{
+    background-color: #7AC6E5;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.mockupgl{
+    background-color: #5951AC;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.mockupbk{
+    background-color: #7AC6E5;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+footer{
+    background-color: #1E1E1E;
+    width: 100%;
+    overflow: hidden;
+    margin-top:50px;
+}
+.info{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.contacto {
+    display:flex;
+    align-items: center;
+    margin-left:2%
+}
+.tel{
+    margin:10px;
+    color:white;
+    font-size:14px;
+}
+.redessociales{
+    width:35px;
+    height: 35px;
+    margin:20px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+hr {
+    width:2px;
+    height: 20px;
+}
+.legal {
+    display:flex;
+    align-items: center;
+    margin-left:25%
+}
+.bot {
+    margin:10px;
+    color:white;
+    font-size:14px;
+}
+.texto{
+    margin-left:90px;
+    text-align:justify;
+    margin-right:90px;
+    margin-top:40px;
+    margin-bottom:40px;
 }
